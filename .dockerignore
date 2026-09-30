@@ -1,0 +1,6 @@
+.env
+.local/
+.git/
+data/
+*.exe
+coverage.out

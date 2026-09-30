@@ -1,0 +1,13 @@
+{
+  "name": "Loan training sample",
+  "columns": [
+    {"name": "id", "type": "string"},
+    {"name": "age", "type": "integer"},
+    {"name": "income", "type": "number"},
+    {"name": "approved", "type": "string"}
+  ],
+  "id_column": "id",
+  "target_column": "approved",
+  "max_row_drop_percent": 20,
+  "max_missing_target_increase_percent": 10
+}
